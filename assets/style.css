@@ -17,11 +17,58 @@
 }
 
 .logo{
-   font-size: 28px;
+    font-size: 28px;
+    font-weight: 100;
+    font-family: 'lato',sans-serif;
+    color: #372a21;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    line-height: 20px; 
+}
+
+.navbar-menu{
+   margin: 65px;   
+}
+
+.navbar-menu a{
+   font-size: 13px;
    font-weight: 100;
    font-family: 'lato',sans-serif;
-   color: blueviolet;
-   cursor: pointer;
-   letter-spacing: 1.5px;
-   line-height: 20px; 
+   color: #372a21;
+   text-transform: uppercase;
+   margin-left: 40px;
+   display: inline-block;
+}
+
+.navbar-menu a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.8px;
+    background-color: #c19169;
+    transition: width .3s;
+}
+
+#Home{
+    height: 100vh;
+}
+
+.content{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content img{
+    width: 520px;
+    height: auto;
+}
+
+.description{
+    color: #372a21;
+    text-align: center;
+    padding: 30px;
+    height: 380px;
 }
