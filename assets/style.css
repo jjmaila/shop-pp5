@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    padding: 30px;
+    top: 0;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.logo{
+   font-size: 28px;
+   font-weight: 100;
+   font-family: 'lato',sans-serif;
+   color: blueviolet;
+   cursor: pointer;
+   letter-spacing: 1.5px;
+   line-height: 20px; 
+}
